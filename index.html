@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      padding: 30px;
+      font-family: 'Epilogue', sans-serif;
+      font-size: 500;
+    }
+    .nav--Main{
+      display: flex;
+      margin: 0;
+      align-items: center;
+    }
+    .nav--career{
+      margin: 0;
+      display: inline;
+      margin-left: 50px;
+    }
+    .nav--login{
+      display: inline;
+      margin-left: 450px;
+    }
+    select {
+        width: 90px;
+        height: 35px;
+        padding: 4px;
+        border: none;
+        outline: none;
+        margin-left: 30px;
+
+    }
+    .body--client{
+      display: flex;
+    
+    }
+    .body--text{
+      width: 600px;
+      text-align: left;
+      margin: 100px;
+    }
+    .client--img{
+      width: 550px;
+    height: 700px;
+    }
+    /* .nav--Log{
+      margin-left: 400px;
+      text-align: center;
+    }
+    .nav--Feat{
+      text-align: center;
+    } */
+    /* .nav--feature{
+      margin-left: 50px;
+    } */
+    .client--reg{
+      margin-left: 20px;
+      width: 100px;
+      height: 35px;
+      border: 1px solid;
+      border-radius: 10px;
+    }
+    .text--client{
+      font-weight: 700;
+    }
+    .text--para{
+      margin-bottom: 100px;
+    }
+    .btn--learn{
+      margin-bottom: 80px;
+      color: white;
+      background-color: black;
+      border-radius: 8px;
+      height: 30px;
+      width: 100px;
+    }
+    .footer--img{
+      margin-top: 180px;
+    
+    }
+  </style>
+</head>
+<body>
+
+  <nav class="nav--Main">
+    <!-- <div class="nav--Feat">
+     
+    </div> -->
+    <img src="images/logo.svg" style="margin-right: 20px;" alt="logo"/>
+    
+    <select id="nav--feature">
+      <option>Features</option>
+      <option><img src="images/icon-todo.svg"/>Todo List</option>
+      <option>Calendar</option>
+      <option>Reminder</option>
+      <option>Planning</option>
+    </select>
+    <select>
+      <option>Company</option>
+      <option>History</option>
+      <option>Our Team</option>
+      <option>Blog</option>
+    </select>
+    <h4 class="nav--career">Careers</h4>
+    <h4 class="nav--career">About</h4>
+    <h4 class="nav--login">Login</h4>
+      <button class="client--reg">Register</button>
+    <!-- <div class="nav--Log">
+      
+    </div>
+     -->
+
+  </nav>
+  
+
+ <div class="body--client">
+  <div class="body--text">
+    <h1 class="text--client" style="line-height: 3;">Make remote work</h1>
+  
+    <p class="text--para">Get your team in sync, no matter your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+  
+    <button class="btn--learn">Learn more</button>
+   <div class="footer--img">
+      <img src="images/client-databiz.svg" alt="" style="margin-left: 30px;width: 70px;"/>
+      <img src="images/client-audiophile.svg" alt="" style="margin-left: 30px;width: 70px;"/>
+      <img src="images/client-meet.svg" alt="" style="margin-left: 30px;width: 70px;"/>
+      <img src="images/client-maker.svg" alt="" style="margin-left: 30px;width: 70px;"/>
+   </div>
+   </div>
+   <div >
+    <img class="client--img" src="images/image-hero-desktop.png" alt=""/>
+   </div>
+ </div>
+  
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Omokhepe</a>.
+  </div>
+</body>
+</html>
